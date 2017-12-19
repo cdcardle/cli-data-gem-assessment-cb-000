@@ -7,7 +7,7 @@ class EplTables::Teams
     self.scrape_teams unless self.all.length > 0
     self.all
   end
-  
+
   def self.all
     @@all
   end
